@@ -1,0 +1,71 @@
+body {
+    background-color: #1CCBDA;
+}
+
+.selection {
+    text-align: center;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subtitle {
+    font-size: 30px;
+    font-family: newFont;
+}
+
+#fish {
+    font-size: 26px;
+    font-family: newFont;
+    text-align: center;
+}
+
+#info {
+    font-size: 20px;
+    font-family: newFont;
+    max-width: 1200px;
+    text-align: left;
+    margin-left: 600px;
+}
+
+#mapPicture {
+    height: 250px;
+}
+
+#titleGif {
+    height: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+#animalPicture {
+    height: 350px;
+    width: auto;
+    margin-left: 450px;
+    margin-right: auto;
+    float: left;
+    padding-right: 30px;
+}
+
+#helpDesc{
+    max-width: 1200px;
+    font-family: newFont;
+}
+
+#helpTitle{
+    font-family: newFont;
+}
+
+#static_text{
+    font-family: newFont;
+}
+
+@font-face {
+    font-family: newFont;
+    src: url(mario.ttf);
+}

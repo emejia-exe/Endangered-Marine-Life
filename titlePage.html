@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Endangered Marine Life
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <br><br>
+        <img id="title" src="./Assets/title.png" alt="oops"></img>
+        <br>
+
+        <div class="center">
+            <img id="titleGif" src="C:\Users\th555sp22as\Downloads\endangered\Assets\title_screen.gif"></img>
+        </div>
+        
+        <br>
+
+        <div class="selection">
+            <label id="subtitle">
+                Choose an ocean and a type of animal: 
+            </label>
+
+            <br><br>
+                
+                <img id="mapPicture" src="C:\Users\th555sp22as\Downloads\endangered\Assets\world_map.png"></img>
+                
+                <br><br>
+
+                <select id="ocean" style="width: 180px; height: 26px; font-family: newFont;" >
+                    <option value="indian">Indian</option>
+                    <option value="pacific">Pacific</option>                    
+                    <option value="atlantic">Atlantic</option>
+                    <option value="arctic">Arctic</option>
+                </select>
+                <select  id="animals" style="width: 180px; height: 26px; font-family: newFont;">
+                    <option value="mammal">Mammal</option>
+                    <option value="reptile">Reptile</option>
+                    <option value="bird">Bird</option>
+                    <option value="fish">Fish</option>
+                </select>
+                <input type="submit" value="Submit" onclick="selectOcean()">
+
+                <br><br><br>
+
+        </div>
+        <div>
+            <h2 id="fish"><!--Title Goes Here--></h2>
+            <img id="animalPicture"></img>
+            <p id="info"><!--text here--></p>
+        </div>
+        <div>
+            <p id="static_text"></p>
+            <h2 id="helpTitle" font-family=newFont></h2>
+            <p id="helpDesc" font-family=newFont></p>
+        </div>
+    </body>
+</html>
